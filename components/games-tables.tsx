@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export function GamesTables() {
   return (
-    <section id="gry-tabele" className="py-12 md:py-20 px-4">
+    <section className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 text-balance px-2">
@@ -13,7 +13,7 @@ export function GamesTables() {
         <div className="space-y-8 md:space-y-12">
           <Card className="bg-white/5 border-white/10">
             <CardHeader>
-              <CardTitle className="text-xl md:text-2xl text-white">Top 10 Automatów do Gier</CardTitle>
+              <CardTitle id="slots" className="text-xl md:text-2xl text-white">Top 10 Automatów do Gier</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="overflow-x-auto">
@@ -108,7 +108,7 @@ export function GamesTables() {
 
           <Card className="bg-white/5 border-white/10">
             <CardHeader>
-              <CardTitle className="text-xl md:text-2xl text-white">Najlepsze Gry Live Casino</CardTitle>
+              <CardTitle id="live-casino" className="text-xl md:text-2xl text-white">Najlepsze Gry Live Casino</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="overflow-x-auto">
@@ -162,7 +162,7 @@ export function GamesTables() {
 
           <Card className="bg-white/5 border-white/10">
             <CardHeader>
-              <CardTitle className="text-xl md:text-2xl text-white">Porównanie Metod Płatności</CardTitle>
+              <CardTitle id="wypłaty" className="text-xl md:text-2xl text-white">Porównanie Metod Płatności</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="overflow-x-auto">

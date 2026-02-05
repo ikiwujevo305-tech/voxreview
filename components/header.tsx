@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Download } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { useState } from "react"
 import Image from "next/image"
 
@@ -16,8 +16,8 @@ export function Header() {
           <Link href="/" className="flex items-center">
             <div className="relative w-32 h-10 md:w-40 md:h-12">
               <Image
-                src="/logo2.png"
-                alt="VOX Casino"
+                src="/logo2.webp"
+                alt="VOX Casino logo"
                 fill
                 className="object-contain"
                 priority
@@ -42,6 +42,9 @@ export function Header() {
             </Link>
             <Link href="#aplikacja" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
               Aplikacja
+            </Link>
+            <Link href="#rezenzja" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">
+              Recenzja
             </Link>
             <Link
               href="/privacy-policy"
@@ -89,6 +92,13 @@ export function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Aplikacja
+              </Link>
+              <Link
+                href="#rezenzja"
+                className="text-sm font-medium text-gray-300 hover:text-white transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Recenzja
               </Link>
               <Link
                 href="/privacy-policy"

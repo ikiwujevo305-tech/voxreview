@@ -8,12 +8,12 @@ const faqs = [
   {
     question: "Czy VOX Casino jest legalne w Polsce?",
     answer:
-      "VOX Casino działa na podstawie międzynarodowej licencji hazardowej wydanej przez rząd Curacao (numer licencji 8048/JAZ). Chociaż nie posiadamy polskiej licencji, możesz legalnie grać na naszej platformie jako gracz z Polski. Licencja Curacao gwarantuje uczciwe warunki gry, bezpieczeństwo danych osobowych i finansowych oraz przestrzeganie międzynarodowych standardów odpowiedzialnej gry.",
+      "VOX Casino działa na podstawie międzynarodowej licencji hazardowej wydanej przez rząd Curacao (numer licencji 8048/JAZ). Licencja Curacao gwarantuje uczciwe warunki gry, bezpieczeństwo danych osobowych i finansowych oraz przestrzeganie międzynarodowych standardów odpowiedzialnej gry.",
   },
   {
     question: "Jak długo trwa weryfikacja konta?",
     answer:
-      "Standardowa weryfikacja konta w VOX Casino zajmuje od 12 do 24 godzin roboczych. Proces wymaga przesłania dokumentu tożsamości (dowód osobisty, paszport lub prawo jazdy) oraz potwierdzenia adresu zamieszkania (rachunek za media, wyciąg bankowy nie starszy niż 3 miesiące). W większości przypadków weryfikacja jest zakończona tego samego dnia. Weryfikacja jest wymagana tylko raz, przed pierwszą wypłatą środków. Gracze VIP mogą liczyć na ekspresową weryfikację w ciągu kilku godzin.",
+      "Standardowa weryfikacja konta w VOX Casino zajmuje od 12 do 24 godzin roboczych. W tym celu należy przesłać dokument potwierdzający tożsamość (dowód osobisty, paszport lub prawo jazdy).",
   },
   {
     question: "Jakie są minimalne i maksymalne limity wypłat?",
@@ -23,27 +23,27 @@ const faqs = [
   {
     question: "Czy mogę grać na VOX Casino na urządzeniach mobilnych?",
     answer:
-      "Tak! VOX Casino oferuje pełną kompatybilność mobilną. Możesz grać bezpośrednio w przeglądarce mobilnej (działa na iOS, Android i innych systemach) lub pobrać naszą dedykowaną aplikację mobilną. Aplikacja jest dostępna na Androida (APK do pobrania na stronie) i iOS (dostępna w App Store). Wersja mobilna oferuje dostęp do wszystkich 5000+ gier, pełnej funkcjonalności konta, metod płatności i obsługi klienta. Interfejs jest w pełni zoptymalizowany pod ekrany dotykowe, zapewniając płynne i wygodne granie w każdym miejscu.",
+      "Tak! VOX Casino oferuje pełną kompatybilność mobilną. Możesz grać bezpośrednio w przeglądarce mobilnej (działa na iOS, Android i innych systemach) lub pobrać naszą dedykowaną aplikację mobilną. Aplikacja jest dostępna na Androida (APK do pobrania na stronie) i iOS (dostępna w App Store).",
   },
   {
     question: "Jakie są warunki bonusu powitalnego?",
     answer:
-      "Pakiet powitalny VOX Casino składa się z 4 bonusów depozytowych: 1) 100% do 1500 PLN + 50 darmowych spinów przy pierwszym depozycie min. 50 PLN, 2) 75% do 1200 PLN + 50 FS przy drugim depozycie min. 100 PLN, 3) 50% do 1300 PLN + 50 FS przy trzecim depozycie min. 150 PLN, 4) 25% do 1000 PLN + 50 FS przy czwartym depozycie min. 200 PLN. Warunki obrotu wynoszą x40 dla bonusu i x40 dla wygranych z darmowych spinów. Maksymalny zakład z aktywnym bonusem to 20 PLN. Bonus jest ważny przez 30 dni od aktywacji. Darmowe spiny są przyznawane na popularne sloty Pragmatic Play.",
+      "Pakiet powitalny VOX Casino składa się z 4 bonusów depozytowych: 1) 100% do 1500 PLN + 50 darmowych spinów przy pierwszym depozycie min. 50 PLN, 2) 75% do 1200 PLN + 50 FS przy drugim depozycie min. 100 PLN, 3) 50% do 1300 PLN + 50 FS przy trzecim depozycie min. 150 PLN, 4) 25% do 1000 PLN + 50 FS przy czwartym depozycie min. 200 PLN. Warunki obrotu wynoszą x40 dla bonusu i x40 dla wygranych z darmowych spinów. Maksymalny zakład z aktywnym bonusem to 20 PLN. Bonus jest ważny przez 30 dni od aktywacji.",
   },
   {
     question: "Jak skontaktować się z obsługą klienta?",
     answer:
-      "Obsługa klienta VOX Casino jest dostępna 24/7 w języku polskim przez kilka kanałów: Czat na żywo (najszybsza opcja, średni czas odpowiedzi 30 sekund), Email: support@voxcasino.com (odpowiedź w ciągu 2-4 godzin), Telefon: +48 22 123 4567 (połączenia w godzinach 8:00-22:00 CET). Gracze VIP mają dostęp do dedykowanego menedżera konta z priorytetowym wsparciem. Wszystkie zapytania są obsługiwane przez profesjonalny zespół znający platformę na wylot.",
+      "Obsługa klienta VOX Casino jest dostępna 24 godziny na dobę, 7 dni w tygodniu, za pośrednictwem kilku kanałów: czat online (najszybsza opcja, średni czas odpowiedzi wynosi 30 sekund), e-mail: support@voxcasino.com (odpowiedź w ciągu 2-4 godzin), telefon: +48 22 123 4567. Gracze VIP mają dostęp do osobistego menedżera konta z priorytetową obsługą.",
   },
   {
     question: "Czy w VOX Casino mogę grać w darmowe gry?",
     answer:
-      "Absolutnie! Większość gier w VOX Casino (poza grami Live Casino) jest dostępna w trybie demo, który pozwala grać za wirtualne środki bez konieczności rejestracji czy wpłaty. To idealna opcja, żeby przetestować nowe gry, poznać ich mechanikę i funkcje bonusowe zanim zagrasz na prawdziwe pieniądze. Tryb demo oferuje dokładnie taką samą rozgrywkę jak wersja za prawdziwe środki, z tym samym RTP i funkcjami. Możesz bez ograniczeń testować sloty, gry stołowe i inne tytuły.",
+      "Absolutnie! Większość gier w VOX Casino (poza grami Live Casino) jest dostępna w trybie demo, który pozwala grać za wirtualne środki bez konieczności rejestracji czy wpłaty. To idealna opcja, żeby przetestować nowe gry, poznać ich mechanikę i funkcje bonusowe zanim zagrasz na prawdziwe pieniądze.",
   },
   {
     question: "Jak działa program lojalnościowy VIP?",
     answer:
-      "Program VIP w VOX Casino składa się z 5 poziomów: Bronze (start), Silver (5,000 PLN obrotu), Gold (50,000 PLN), Platinum (250,000 PLN) i Diamond (1,000,000 PLN). Każdy poziom oferuje lepsze korzyści: wyższe cashbacki (od 5% do 20%), szybsze wypłaty, wyższe limity, personalizowane bonusy, dedykowanego menedżera VIP, zaproszenia na ekskluzywne wydarzenia i turnieje. Punkty lojalnościowe zdobywasz za każdą obróconą złotówkę (1 PLN = 1 punkt), które możesz wymieniać na bonusy gotówkowe. Status VIP jest permanentny - raz osiągnięty, zachowujesz go na zawsze.",
+      "Program VIP w VOX Casino składa się z 5 poziomów: Bronze (start), Silver (5,000 PLN obrotu), Gold (50,000 PLN), Platinum (250,000 PLN) i Diamond (1,000,000 PLN). Każdy poziom oferuje lepsze korzyści: wyższe cashbacki (od 5% do 20%), szybsze wypłaty, wyższe limity, personalizowane bonusy, dedykowanego menedżera VIP, zaproszenia na ekskluzywne wydarzenia i turnieje.",
   },
 ]
 

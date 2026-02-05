@@ -20,15 +20,12 @@ export function Footer() {
             {/* Логотип вместо текста */}
             <div className="relative w-40 h-16 mb-4">
               <Image
-                src="/logo2.png" // Замените на путь к вашему логотипу
+                src="/logo2.webp" // Замените на путь к вашему логотипу
                 alt="VOX Casino"
                 fill
                 className="object-contain"
               />
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              Legalne kasyno online z licencją Curacao. Graj bezpiecznie i odpowiedzialnie.
-            </p>
           </div>
 
           <div>

@@ -1,14 +1,13 @@
 import Image from "next/image"
-import { Card, CardContent } from "@/components/ui/card"
 import { Star, Trophy, Users, Gift } from "lucide-react"
 
 export function DetailedReview() {
   return (
-    <section className="py-12 md:py-20 px-4 bg-black/20">
+    <section id="rezenzja" className="py-12 md:py-20 px-4 bg-black/20">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 text-balance px-2">
-            Pełny Przegląd VOX Casino Polska
+            Pełny Przegląd VOX Casino - Co Sprawia, że Jest Wyjątkowe w 2026 Roku?
           </h2>
         </div>
 
@@ -21,32 +20,26 @@ export function DetailedReview() {
                   <Star className="w-5 h-5 md:w-6 md:h-6 text-amber-500" />
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold text-white">
-                  Doświadczenie Gracza na Najwyższym Poziomie
+                  Najwyższy poziom wrażeń z gry
                 </h3>
               </div>
               <div className="space-y-4 text-sm md:text-base text-gray-300 leading-relaxed">
                 <p>
-                  W VOX Casino stawiamy gracza na pierwszym miejscu. Nasza platforma została zaprojektowana z myślą o
-                  maksymalnym komforcie i intuicyjności. Od momentu rejestracji po pierwsze wypłaty - każdy krok jest
-                  prosty, przejrzysty i bezpieczny.
+                  Gracz jest dla nich najważniejszy. Platforma została zaprojektowana z myślą o maksymalnym komforcie i intuicyjności. Od momentu rejestracji do pierwszych wypłat — każdy krok jest prosty, zrozumiały i bezpieczny.
                 </p>
                 <p>
-                  Współpracujemy z największymi dostawcami oprogramowania w branży: Pragmatic Play, Evolution Gaming,
-                  NetEnt, Play'n GO, Microgaming, Quickspin i wieloma innymi. To gwarantuje dostęp do najnowszych,
-                  najlepiej zaprojektowanych gier z najwyższymi współczynnikami RTP na rynku.
+                  Współpraca z największymi dostawcami oprogramowania w branży: <strong><a href="#slots" className="text-amber-500 hover:underline">Pragmatic Play, Evolution Gaming, NetEnt, Play'n GO, Microgaming, Quickspin</a></strong> i wieloma innymi. Gwarantuje to dostęp do najnowszych, najlepszych gier z najwyższymi współczynnikami RTP na rynku.
                 </p>
                 <p>
-                  Nasza biblioteka gier jest stale aktualizowana - co tydzień dodajemy nowe tytuły, abyś nigdy nie
-                  znudził się grą. Od klasycznych automatów owocowych, przez nowoczesne gry wideo z wieloma liniami
-                  wypłat, aż po ekscytujące gry z jackpotem progresywnym - znajdziesz wszystko czego potrzebujesz.
+                  Biblioteka gier jest stale aktualizowana — co tydzień dodawane są nowe gry, abyś nigdy nie znudził się graniem. 
                 </p>
               </div>
             </div>
             <div className="order-1 md:order-2">
               <div className="relative aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
                 <Image
-                  src="/slots.jpeg"
-                  alt="VOX Casino gaming interface"
+                  src="/slots.webp"
+                  alt="VOX Casino slot games"
                   fill
                   className="object-cover"
                 />
@@ -58,7 +51,7 @@ export function DetailedReview() {
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
             <div>
               <div className="relative aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <Image src="/live-casino-dealer-at-blackjack-table-professional.jpg" alt="VOX Casino live dealers" fill className="object-cover" />
+                <Image src="/live-casino-dealer-at-blackjack-table-professional.webp" alt="live dealers" fill className="object-cover" />
               </div>
             </div>
             <div>
@@ -75,13 +68,9 @@ export function DetailedReview() {
                   zaawansowane technologicznie stoliki z profesjonalnymi krupierami.
                 </p>
                 <p>
-                  Do wyboru masz dziesiątki wariantów ruletki (europejska, amerykańska, francuska, Lightning Roulette),
+                  <a href="#live-casino" className="text-amber-500 hover:underline">Do wyboru masz dziesiątki wariantów ruletki</a> (europejska, amerykańska, francuska, Lightning Roulette),
                   blackjacka (klasyczny, VIP, Speed Blackjack), bakarata, poker i ekscytujące game shows jak Crazy Time,
-                  Monopoly Live czy Deal or No Deal. Wszystko w jakości Full HD z wieloma kątami kamer.
-                </p>
-                <p>
-                  Transmisje prowadzone są w języku polskim i angielskim, a profesjonalni dealerzy tworzą przyjazną
-                  atmosferę, odpowiadając na pytania graczy w czasie rzeczywistym przez czat na żywo.
+                  Monopoly Live czy Deal or No Deal.
                 </p>
               </div>
             </div>
@@ -98,25 +87,19 @@ export function DetailedReview() {
               </div>
               <div className="space-y-4 text-sm md:text-base text-gray-300 leading-relaxed">
                 <p>
-                  Nasz zespół obsługi klienta jest dostępny 24/7 przez czat na żywo, email i telefon. Wszystkie
-                  zapytania są obsługiwane w języku polskim przez wykwalifikowanych specjalistów, którzy znają platformę
-                  na wylot i są gotowi pomóc w każdej sytuacji.
+                  Nasza obsługa klienta jest dostępna 24 godziny na dobę, 7 dni w tygodniu poprzez czat, e-mail i telefon.
                 </p>
                 <p>
-                  VOX Casino to nie tylko miejsce do gry - to społeczność. Regularnie organizujemy turnieje z pulami
-                  nagród sięgającymi dziesiątek tysięcy złotych, gdzie możesz rywalizować z innymi graczami i wspinać
-                  się w rankingach. Każdy turniej to dodatkowa szansa na wygraną bez dodatkowego ryzyka.
+                  VOX to nie tylko miejsce do gry, ale także społeczność. Regularnie organizujemy turnieje z pulą nagród sięgającą dziesiątek tysięcy złotych, w których możesz rywalizować z innymi graczami i piąć się w górę rankingów.
                 </p>
                 <p>
-                  Program lojalnościowy nagradza każdą twoją aktywność. Im więcej grasz, tym wyższy poziom VIP osiągasz,
-                  a wraz z nim - lepsze bonusy, szybsze wypłaty, dedykowanego menedżera konta i ekskluzywne zaproszenia
-                  na specjalne wydarzenia.
+                  <strong>Program lojalnościowy</strong> nagradza każdą Twoją aktywność. Im więcej grasz, tym wyższy poziom VIP osiągasz, a wraz z nim — lepsze bonusy, darmowe spiny i osobisty menedżer konta.
                 </p>
               </div>
             </div>
             <div className="order-1 md:order-2">
               <div className="relative aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <Image src="/support.webp" alt="VOX Casino support team" fill className="object-cover" />
+                <Image src="/support.webp" alt="VOX support team" fill className="object-cover" />
               </div>
             </div>
           </div>
@@ -125,7 +108,7 @@ export function DetailedReview() {
           <div className="grid md:grid-cols-2 gap-6 md:gap-12 items-center">
             <div>
               <div className="relative aspect-video rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
-                <Image src="/bonus.webp" alt="VOX Casino bonuses" fill className="object-cover" />
+                <Image src="/bonus.webp" alt="VOX bonus and free spins" fill className="object-cover" />
               </div>
             </div>
             <div>
@@ -137,18 +120,13 @@ export function DetailedReview() {
               </div>
               <div className="space-y-4 text-sm md:text-base text-gray-300 leading-relaxed">
                 <p>
-                  VOX Casino słynie z najbardziej hojnych bonusów w Polsce. Pakiet powitalny dla nowych graczy obejmuje
-                  bonus od pierwszych czterech depozytów o łącznej wartości do 5000 PLN + 200 darmowych spinów na
-                  najpopularniejsze sloty. To jeden z najlepszych pakietów startowych na rynku!
+                  Pakiet powitalny dla nowych graczy obejmuje bonus od pierwszych czterech depozytów o łącznej wartości do 5000 PLN + 200 darmowych spinów na najpopularniejsze automaty. Oprócz tego dostępny jest bonus bez depozytu.
                 </p>
                 <p>
-                  Ale to nie wszystko - regularne promocje jak "Piątkowe Darmowe Spiny", "Weekendowy Cashback 20%",
-                  "Reload Bonus w Środy" sprawiają, że zawsze masz dodatkowe środki do gry. Wszystkie bonusy mają
-                  uczciwe warunki obrotu (najczęściej x35-x40), które są realne do spełnienia.
+                  Ale to nie wszystko — regularne promocje, takie jak „Piątkowe darmowe spiny”, „20% cashback w weekendy”, „Bonus za doładowanie konta w środy”, gwarantują, że zawsze będziesz mieć dodatkowe środki do gry. Wszystkie bonusy mają uczciwe warunki obrotu (najczęściej x35-x40), które naprawdę można spełnić
                 </p>
                 <p>
-                  Nie zapominamy też o stałych graczach - program VIP oferuje spersonalizowane bonusy, wyższe limity
-                  wypłat, dedykowane promocje i wiele innych przywilejów. Im dłużej z nami grasz, tym więcej zyskujesz.
+                  Program VIP oferuje spersonalizowane bonusy, wyższe limity wypłat, specjalne promocje i wiele innych przywilejów.
                 </p>
               </div>
             </div>
